@@ -23,8 +23,8 @@ class EmailService {
         $this->conteudo = $conteudo;
     }
 
-    public function dispararEmail() {
-        return "--- enviar e-mail ---";
+    public static function dispararEmail() {
+        return "--- E-mail enviado---";
     }
 
 }

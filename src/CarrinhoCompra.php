@@ -24,6 +24,6 @@ class CarrinhoCompra {
     } 
 
     public function validarCarrinho() {
-        return count($this->itens) > 0;
+        return count($this->itens) > 0 ? 'válido ;)' : 'inválido :(';
     }
 }
