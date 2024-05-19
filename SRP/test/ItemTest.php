@@ -90,7 +90,9 @@ class ItemTest extends TestCase {
             [100],
             [-10],
             [0],
-            [111]
+            [111],
+            [22],
+            ['sads'],
         ];
     }
     
