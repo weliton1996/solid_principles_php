@@ -1,0 +1,17 @@
+{
+    "name": "weliton/app_etl",
+    "description": "ETL - Extract, Transform, Load (Extrair, Transformar, Carregar), um app para aplicar o ELT e OCP - Open/Closed Principle (Principio Aberto e Fechado).",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weliton"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
