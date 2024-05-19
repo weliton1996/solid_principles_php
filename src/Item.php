@@ -29,4 +29,10 @@ class Item {
     public function setValor(float $valor) {
         $this->valor = $valor;
     }
+
+    public function itemValido() {
+        if($this->descricao == '') return false;
+        if($this->valor <= 0) return false;
+        return true;
+    }
 }
