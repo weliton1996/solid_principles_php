@@ -44,5 +44,22 @@ class Arquivo {
         // echo '<pre>';
         // print_r($this->dados);
         // echo '</pre>';
+        fclose($handle);
+    }
+
+    public function lerArquivoTXT(string $caminho): void
+    {
+        $handle = fopen($caminho, 'r');
+
+        while(!feof($handle)){
+            $linha = fgets($handle);
+            // echo substr($linha,0,11);
+            $this->setDados(
+                substr($linha,11,30),
+                substr($linha,0,11),
+                substr($linha,41,50)
+            );
+        }
+        fclose($handle);
     }
 }
