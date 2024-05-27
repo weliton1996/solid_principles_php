@@ -7,8 +7,11 @@
 
 ## Projetos exemplos:
 
-- **SEM_SRP -  Single Responsibility Principle (Princípio da Responsabilidade Única)**
+- **SEM_SRP - Sem o Single Responsibility Principle (Princípio da Responsabilidade Única)**
+- **SEM_SRP - Sem o Open/Closed Principle (Princípio Aberto/Fechado)**
+- **SEM_LSP - Sem o Liskov Substitution Principle (Princípio de Substituição de Liskov)**
 <br/>
 
-- **SRP -  Single Responsibility Principle (Princípio da Responsabilidade Única)**
-- **OCP - Open/Closed Principle (Princípio Aberto/Fechado)**
+- **SRP - Com o Single Responsibility Principle (Princípio da Responsabilidade Única)**
+- **OCP - Com o Open/Closed Principle (Princípio Aberto/Fechado)**
+- **LSP - Com o Liskov Substitution Principle (Princípio de Substituição de Liskov)**

@@ -1,0 +1,18 @@
+{
+    "name": "weliton/app_poligonos",
+    "description": "LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov), criando uma simples aplicacao para emplementar os princitios SRP, OCP e agora o LSP.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weliton"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
