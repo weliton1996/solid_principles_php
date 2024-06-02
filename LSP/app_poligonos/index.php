@@ -18,7 +18,8 @@
 
     $poligono = new Poligono();
     $poligono->setForma(new Quadrado());
-    $poligono->getForma()->setLado(5);
+    $poligono->getForma()->setAltura(25);
+    // $poligono->getForma()->setLado(5);
     echo '<pre>';
     print_r($poligono);
     echo '</pre>';
