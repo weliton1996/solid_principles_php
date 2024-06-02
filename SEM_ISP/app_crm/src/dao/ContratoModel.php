@@ -11,14 +11,14 @@ class ContratoModel extends BD implements Icadastro
 {
     public function salvar()
     {
-
+        //logica
     }
-    public function resgistrar(Log $log)
+    public function registrar(Log $log)
     {
-
+        //logica
     }
     public function enviarNotificacao(Notificacao $notificacao)
     {
-
+        //logica
     }
 }
