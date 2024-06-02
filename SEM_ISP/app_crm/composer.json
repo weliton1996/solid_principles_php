@@ -1,0 +1,17 @@
+{
+    "name": "weliton/app_crm",
+    "description": "LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov)",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Weliton\\AppCrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weliton"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
