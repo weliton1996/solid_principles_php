@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Weliton\\AppCrm\\": "src/"
+            "src\\": "src/"
         }
     },
     "authors": [
