@@ -1,0 +1,17 @@
+{
+    "name": "weliton/app_mensageiro",
+    "description": "DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weliton"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
